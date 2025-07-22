@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle, Users, Globe, Clock, Star, Target, Sparkles, Loader2 } from 'lucide-react'; // Importer Loader2 pour l'icône de chargement
 import { useToast } from '@/hooks/use-toast';
+import { Analytics } from "@vercel/analytics/next";
 import heroBackground from '@/assets/hero-background.jpg';
 
 const API_BASE_URL = 'ro-spark-api.vercel.app/api'; // Définir l'URL de base de votre API
