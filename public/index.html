@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoSpark - Shine Online with Confidence</title>
+    <meta name="description" content="RoSpark - Digital marketing agency empowering African creators with 5,000 free portfolios">
+    <meta name="author" content="RoSpark">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">RoSpark – Shine Online with Confidence</h1>
+                <p class="hero-description">
+                    RoSpark is an innovative Beninese digital marketing agency, specializing in online visibility, 
+                    content creation, and digital support for entrepreneurs, creatives, artists, and small businesses.
+                </p>
+                <p class="hero-slogan">
+                    "Empowering the next generation of African creators through digital excellence."
+                </p>
+                <button class="cta-button" onclick="scrollToForm()">Get Your Free Portfolio</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Launch Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">A Bold Initiative: 5,000 Free Portfolios for African Youth</h2>
+            <p class="section-text">
+                As part of its mission to accelerate digital adoption, RoSpark is launching 5,000 free professional 
+                portfolios for young talents, freelancers, creatives, and project holders across Benin and 
+                French-speaking Africa.
+            </p>
+        </div>
+    </section>
+
+    <!-- Partnership Section -->
+    <section class="section partnership-section">
+        <div class="container">
+            <h2 class="section-title">Strategic Partnership with Alwaysdata</h2>
+            <p class="section-text">
+                Thanks to a strong partnership with the French tech company Alwaysdata, RoSpark ensures free, 
+                high-quality web hosting for all portfolio beneficiaries.
+            </p>
+            <div class="logos">
+                <div class="logo-item">
+                    <div class="logo-placeholder">RoSpark</div>
+                </div>
+                <div class="partnership-plus">+</div>
+                <div class="logo-item">
+                    <div class="logo-placeholder">Alwaysdata</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Free Section -->
+    <section class="section why-free-section">
+        <div class="container">
+            <h2 class="section-title">Why Is This Offer Completely Free?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>No creation costs</h3>
+                    <p>A professional portfolio usually costs between 15,000 and 30,000 FCFA – fully covered by RoSpark.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌐</div>
+                    <h3>No annual hosting fees</h3>
+                    <p>Hosting fees often required by other providers are waived thanks to Alwaysdata.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">♾️</div>
+                    <h3>Unlimited duration</h3>
+                    <p>Unlike typical 1-year hosting plans, these portfolios are permanently accessible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section class="section form-section" id="registration-form">
+        <div class="container">
+            <h2 class="section-title">Get Your Free Portfolio Today</h2>
+            <form class="registration-form" id="portfolioForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp Number</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" required>
+                </div>
+                <div class="form-group">
+                    <label for="activity">Your Activity / Domain</label>
+                    <textarea id="activity" name="activity" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="socialMedia">Social Media Link (optional)</label>
+                    <input type="url" id="socialMedia" name="socialMedia">
+                </div>
+                <button type="submit" class="submit-button">Submit My Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section final-cta">
+        <div class="container">
+            <h2 class="cta-title">Join the #RoSpark5000 movement and showcase your talent to the world.</h2>
+            <p class="cta-subtitle">The future is digital, and it starts with you.</p>
+            <button class="cta-button" onclick="scrollToForm()">I Want My Portfolio</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>RoSpark</h3>
+                    <p>Empowering African creators through digital excellence</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <p>Benin, West Africa</p>
+                    <p>Email: contact@rospark.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RoSpark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span id="toast-message"></span>
+        <button class="toast-close" onclick="hideToast()">&times;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
