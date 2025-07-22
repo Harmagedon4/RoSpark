@@ -9,7 +9,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Analytics } from "@vercel/analytics/next";
 import heroBackground from '@/assets/hero-background.jpg';
 
-const API_BASE_URL = 'ro-spark-api.vercel.app/api'; // Définir l'URL de base de votre API
+const API_BASE_URL = 'https://ro-spark-api.vercel.app/api'; // Définir l'URL de base de votre API
 
 const Index = () => {
   const { toast } = useToast();
