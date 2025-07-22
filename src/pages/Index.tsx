@@ -8,7 +8,7 @@ import { CheckCircle, Users, Globe, Clock, Star, Target, Sparkles, Loader2 } fro
 import { useToast } from '@/hooks/use-toast';
 import heroBackground from '@/assets/hero-background.jpg';
 
-const API_BASE_URL = 'http://localhost:5000/api'; // Définir l'URL de base de votre API
+const API_BASE_URL = 'ro-spark-api.vercel.app/api'; // Définir l'URL de base de votre API
 
 const Index = () => {
   const { toast } = useToast();
